@@ -25,9 +25,6 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Build website
         run: yarn build
-      - uses: redkubes/docusaurus-deploy-action@v1
-        with:
-          source-folder: build
-          git-user: "docs"
-          git-password: ${{ secrets.PUBLISH_TOKEN }}
-          deployment-branch: gh-pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
