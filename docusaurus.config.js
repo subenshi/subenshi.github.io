@@ -65,10 +65,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Subenshi documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Subenshi docs',
+          src: 'https://avatars.githubusercontent.com/u/127020381?s=200&v=4',
         },
         items: [
           {
@@ -77,9 +77,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/subenshi',
             label: 'GitHub',
             position: 'right',
           },
