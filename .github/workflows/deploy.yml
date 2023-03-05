@@ -26,5 +26,4 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
         with:
-          github_token: ${{ secrets.PUBLISH_TOKEN }}
-          publish_dir: ./build
+          token: ${{ secrets.PUBLISH_TOKEN }}
