@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Subenshi documentation',
+  title: 'Subenshi blueprint',
   tagline: 'Subenshi is cool',
   favicon: 'img/favicon.ico',
 
@@ -65,18 +65,18 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Subenshi documentation',
+        title: 'Subenshi blueprint',
         logo: {
           alt: 'Subenshi docs',
           src: 'https://avatars.githubusercontent.com/u/127020381?s=200&v=4',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'home',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/subenshi',
@@ -93,11 +93,7 @@ const config = {
             items: [
               {
                 label: 'Home',
-                to: '/docs/what-is-it',
-              },
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/home',
               },
             ],
           }
